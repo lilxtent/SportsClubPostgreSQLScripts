@@ -3,5 +3,6 @@ create table "Clients" (
               Surname varchar(150) NOT NULL,
               Name varchar(150) NOT NULL,
               Patronymic varchar(150) NOT NULL,
-              BirthDate date NOT NULL
+              BirthDate date NOT NULL,
+              Phone varchar(100) NULL
 )
