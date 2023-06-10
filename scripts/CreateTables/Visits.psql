@@ -1,0 +1,6 @@
+create table "Visits"
+(
+    "Id" integer primary key generated always as identity,
+    ClientId uuid NOT NULL,
+    DateTime timestamp NOT NULL
+);
