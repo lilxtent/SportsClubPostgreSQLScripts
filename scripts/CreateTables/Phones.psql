@@ -1,0 +1,8 @@
+create table "Phones"
+          (
+              "Clientid" uuid        not null,
+              "Phone"    varchar(50) not null
+          )
+          
+create unique index "Phones_Clientid_uindex"
+              on "Phones" ("Clientid")
