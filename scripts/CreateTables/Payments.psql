@@ -1,0 +1,9 @@
+create table "Payments"
+          (
+              Id integer primary key generated always as identity,
+              SubscriptionId uuid NOT NULL,
+              PaymentDate timestamp NOT NULL,
+              SubscriptionStartTime timestamp NOT NULL,
+              SubscriptionEndTime timestamp NOT NULL,
+              PaymentAmount money NOT NULL
+          )
