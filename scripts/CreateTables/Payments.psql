@@ -1,6 +1,7 @@
 create table "Payments"
           (
               Id integer primary key generated always as identity,
+              ClientId uuid NOT NULL,
               SubscriptionId uuid NOT NULL,
               PaymentDate timestamp NOT NULL,
               SubscriptionStartTime timestamp NOT NULL,
