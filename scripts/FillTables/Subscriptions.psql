@@ -1,0 +1,8 @@
+INSERT INTO "Subscriptions"
+    (id, name, price, description)
+VALUES
+    (uuid_generate_v4(), 'Лайт', 1500, 'Самый простой'),
+    (uuid_generate_v4(), 'Вечерний', 2000, 'Вечернее посещение'),
+    (uuid_generate_v4(), 'Дневной', 1700, 'Дневное посещение'),
+    (uuid_generate_v4(), 'Максимальный', 3000, 'Самый крутой')
+    
